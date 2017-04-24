@@ -1,4 +1,4 @@
-#T3 Node
+# T3 Node
 
 ## local setup
 1. clone repository
