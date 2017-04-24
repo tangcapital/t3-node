@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'SF-UI-HeavyItalic';
+    src: url("/fonts/SF-UI-Text-HeavyItalic.otf"); 
+    src: url("/fonts/SF-UI-Text-HeavyItalic.otf") format("opentype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF-UI-Medium';
+    src: url("/fonts/SF-UI-Text-Medium.otf"); 
+    src: url("/fonts/SF-UI-Text-Medium.otf") format("opentype");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF-UI-Semibold';
+    src: url("/fonts/SF-UI-Text-Semibold.otf"); 
+    src: url("/fonts/SF-UI-Text-Semibold.otf") format("opentype");
+    font-style: normal;
+}
+
+body {font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 22px; margin: 0;}
+pre, h1, p {font-family: -apple-system, BlinkMacSystemFont, sans-serif;margin: 0;}
+.fonts-loaded h1 {font-family: 'SF-UI-Semibold', -apple-system, BlinkMacSystemFont, sans-serif;letter-spacing: -0.08em;}
+.fonts-loaded p {font-family: 'SF-UI-Medium', -apple-system, BlinkMacSystemFont, sans-serif;letter-spacing: -0.08em;}
+.fonts-loaded pre {font-family: 'SF-UI-Semibold', -apple-system, BlinkMacSystemFont, sans-serif;letter-spacing: -0.08em;}

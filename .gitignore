@@ -1,0 +1,14 @@
+# Node build artifacts
+jest
+node_modules
+npm-debug.log
+
+# Local development
+*.env
+*.dev
+artillery*.json
+.DS_Store
+
+# Docker
+Dockerfile
+docker-compose.yml
