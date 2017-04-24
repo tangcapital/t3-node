@@ -6,7 +6,7 @@ const bodyParser = require('body-parser')
 const hbs = require('express-hbs')
 const output = require('./utils/output')
 require('./utils/views')
-require('./utils/proto');
+require('./utils/proto')
 
 const WORKER_COUNT = process.env.WEB_CONCURRENCY || 1
 

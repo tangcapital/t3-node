@@ -17,16 +17,12 @@ function compose () {
 }
 
 function curry (fn) {
-  const arity = fn.length
   return function curried () {
     const args = Array.from(arguments)
-    if (args.length >= arity) {
+    if (args.length >= fn.length) {
       return fn.apply(null, args)
-    } else {
-      return function () {
-        return curried.apply(null, args)
-      }
     }
+    return curried.bind.apply(curried, [this].concat(args))
   }
 }
 
