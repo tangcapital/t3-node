@@ -24,3 +24,15 @@ pre, h1, p {font-family: -apple-system, BlinkMacSystemFont, sans-serif;margin: 0
 .fonts-loaded h1 {font-family: 'SF-UI-Semibold', -apple-system, BlinkMacSystemFont, sans-serif;letter-spacing: -0.08em;}
 .fonts-loaded p {font-family: 'SF-UI-Medium', -apple-system, BlinkMacSystemFont, sans-serif;letter-spacing: -0.08em;}
 .fonts-loaded pre {font-family: 'SF-UI-Semibold', -apple-system, BlinkMacSystemFont, sans-serif;letter-spacing: -0.08em;}
+
+.bkgd {position: fixed; top: 0; left: 0; right: 0; bottom: 0; background-image: url(/img/glass.jpg); background-size: cover; background-position: center;}
+.container {position: absolute; margin: auto; top: 50%; left: 50%; text-align: center; transform: translate3d(-50%, -50%, 0); background-color: rgba(255,255,255,0.8); border-radius: 10px; box-shadow: 4px 4px 10px 6px rgba(0,0,0,0.3); padding: 1em; box-sizing: border-box;}
+.t3 {position: relative; display: inline-block; height: 400px; width: 400px; line-height: 300px; color: #fff; font-size: 240px;}
+.t3 span {display: block; font-size: 30px; line-height: 30px}
+.glass {color: #fff; background: url(/img/glass.jpg); background-size: 100%; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+.healthy {color: #00ff00;line-height: 1em;}
+.illness {color: #ff0000;line-height: 1em;}
+.healthy:before {background-color: #00ff00;}
+.illness:before {background-color: #ff0000;}
+.healthy:before, .illness:before {position: relative; display: inline-block;content: ''; height: 0.6em; width: 0.6em; border-radius: 1em; margin-right: 0.2em;}
+.broken {background-image: url(/img/broken.jpg);}

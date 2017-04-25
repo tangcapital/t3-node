@@ -37,7 +37,9 @@ function start () {
   })
 
   app.get('*', (request, response) => {
-    response.render('error')
+    response.render('error', {
+      resource: request.url
+    })
   })
 
   app.listen(app.get('port'), () => {
